@@ -4,7 +4,7 @@ path = require 'path'
 exports.config = 
 
   paths:
-    public: '.'
+    public: './'
 
   conventions:
     ignored: /^node_modules/
