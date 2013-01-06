@@ -2,10 +2,7 @@ fs   = require 'fs'
 path = require 'path'
 
 exports.config = 
-
-  paths:
-    public: './'
-
+  
   conventions:
     ignored: /^node_modules/
 

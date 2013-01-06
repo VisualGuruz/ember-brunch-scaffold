@@ -11,7 +11,9 @@ In case you completely overlooked the title (classic Phil), this application is 
 After Brunch is installed, run these commands in your terminal to get started...
 
 1. `npm install`
-2. `brunch b` or `brunch w`
+2. `brunch watch --server`
+
+Navigate to http://localhost:3333.  Happy Embering!
 
 ## License
 This project is released under the MIT License (see LICENSE for details).

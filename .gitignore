@@ -1,12 +1,7 @@
 # Project Specific #
 ####################
 node_modules/
-js/
-css/
-img/
-font/
-index.html
-favicon.ico
+public/
 
 # Extensions #
 ##############
