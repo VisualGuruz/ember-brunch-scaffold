@@ -1,0 +1,31 @@
+{
+  "name": "emberjs-routerv2-example-app",
+  "author": "VisualGuruz",
+  "copyright": "VisualGuruz 2013",
+  "license": "MIT",
+  "description": "Attempt to understand the new emberjs v2 router",
+  "version": "0.0.1",
+  "homepage": "https://github.com/VisualGuruz/emberjs-routerv2-example-app",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/VisualGuruz/emberjs-routerv2-example-app.git"
+  },
+  "engines": {
+    "node": "~0.6.10 || 0.8 || 0.9"
+  },
+  "scripts": {
+    "start": "brunch watch --server"
+  },
+  "dependencies": {
+    "javascript-brunch": ">= 1.0 < 1.5",
+    "uglify-js-brunch": ">= 1.0 < 1.5",
+    "jshint-brunch":">= 1.0 < 1.5",
+    "less-brunch": ">= 1.0 < 1.5",
+    "ember-handlebars-brunch": "git://github.com/bartsqueezy/ember-handlebars-brunch.git"
+  },
+  "devDependencies": {
+    "mocha": "1.7.4",
+    "expect.js": "0.2.0",
+    "express": "3.0.4"
+  }
+}
