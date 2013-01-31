@@ -1,10 +1,10 @@
 var App = require('app');
 
 /**
- * Application Controller
+ * Messages Create Controller
  *
  * @namespace App
  * @extends {Ember.Controller}
  */
-App.ApplicationController = Em.Controller.extend({
+App.MessagesCreateController = Em.Controller.extend({
 });

@@ -1,10 +1,10 @@
 var App = require('app');
 
 /**
- * Index Route
+ * Configs Messages Route
  *
  * @namespace App
  * @extends {Ember.Route}
  */
-App.IndexRoute = Em.Route.extend({
+App.MessagesRoute = Em.Route.extend({
 });

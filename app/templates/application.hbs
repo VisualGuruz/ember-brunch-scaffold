@@ -1,6 +1,35 @@
-<div class="container">
-    <h1>ApplicationView</h1>
-    <div class="well">
-        {{outlet}}
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container-fluid">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            {{#linkTo 'index' classNames="brand"}}Take Ember out to Brunch{{/linkTo}}
+            <div class="nav-collapse collapse">
+                <p class="navbar-text pull-right">
+                    <a href="#" class="navbar-link">Log In</a>
+                </p>
+                <ul class="nav">
+                    <li>{{#linkTo 'users.index'}}Users{{/linkTo}}</li>
+                    <li>{{#linkTo 'configs.index'}}Configs{{/linkTo}}</li>
+                </ul>
+            </div>
+        </div>
     </div>
+</div>
+
+<div class="container-fluid">
+    {{outlet}}
+
+    <hr />
+
+    <footer>
+        <p>© Company 2012</p>
+    </footer>
+</div>
+
+<div id="globalModal" class="modal hide fade">
+    {{outlet modal}}
 </div>

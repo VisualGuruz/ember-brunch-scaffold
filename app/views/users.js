@@ -1,11 +1,11 @@
 var App = require('app');
 
 /**
- * Index View
+ * Users View
  *
  * @namespace App
  * @extends {Ember.View}
  */
-App.IndexView = Em.View.extend({
-    templateName: 'index'
+App.UsersView = Em.View.extend({
+    templateName: 'users'
 });

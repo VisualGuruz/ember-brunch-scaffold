@@ -1,20 +1,35 @@
 var App = require('app');
 
-App.Router = Em.Router.extend({
-    enableLogging: true
+Em.Router.reopen({
+    location: Modernizr.history ? 'history' : 'hash'
 });
 
 /**
- * Stores all routing maps to be loaded later
- * @type {Array}
+ * Default route that the router transisitons to while data is
+ * loading for a particular route.
+ *
+ * @namespace App
+ * @extends {Ember.Route}
  */
-App.routerMaps = [];
+App.LoadingRoute = Em.Route.extend({
+});
 
 /**
- * Allow for adding routes elsewhere.
+ * Maps all URLs to a valid route.
+ * NOTE: All 'index' routes are created automagically.
+ *
+ * @namespace App.Router
+ * @method map
  */
-App.Router.map(function(match) {
-    App.routerMaps.forEach(function(item) {
-        item(match);
+App.Router.map( function ( match ) {
+    this.resource('users', function () {
+        this.route('create');
+        this.route('view', {path: 'view/:user_id'});
+    });
+    this.resource('configs', function () {
+        this.resource('messages', function () {
+            this.route('create');
+            this.route('view', {path: 'view/:message_id'});
+        });
     });
 });

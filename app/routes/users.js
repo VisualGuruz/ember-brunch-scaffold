@@ -1,10 +1,10 @@
 var App = require('app');
 
 /**
- * Index Route
+ * Users Route
  *
  * @namespace App
  * @extends {Ember.Route}
  */
-App.IndexRoute = Em.Route.extend({
+App.UsersRoute = Em.Route.extend({
 });

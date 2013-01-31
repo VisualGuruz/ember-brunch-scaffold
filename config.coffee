@@ -16,9 +16,9 @@ exports.config =
       order: 
         before: [
           'vendor/scripts/console-helper.js',
-          'vendor/scripts/jquery-1.8.3.js',
+          'vendor/scripts/jquery-1.9.0.js',
           'vendor/scripts/modernizr.custom.js',
-          'vendor/scripts/handlebars-1.0.rc.1.js',
+          'vendor/scripts/handlebars.js',
           'vendor/scripts/ember.js',
           'vendor/scripts/bootstrap.js'
         ]
@@ -36,6 +36,7 @@ exports.config =
 
     templates:
       precompile: true
+      root: 'templates/'
       defaultExtension: 'hbs'
       joinTo: 'js/app.js' : /^app/
 

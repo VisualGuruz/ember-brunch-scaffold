@@ -1,8 +1,11 @@
-// Application bootstrapper
+module.exports = function () {
+    var App = Em.Application.create({
+        Mixins: Em.Object.create(),
 
-module.exports = function() {
-	var App = Em.Application.create();
+        // use only in dev
+        LOG_TRANSITIONS: false
+    });
 
-	App.deferReadiness();
-	return App;
+    App.deferReadiness();
+    return App;
 }();
