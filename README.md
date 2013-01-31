@@ -1,6 +1,6 @@
 # Ember Brunch Scaffold Project
 
-Surprised by the new Ember v3 Router API?  Did you think WTF?  So did we.  Here's our attempt to figure it out by building a basic application.
+This is an all-inclusive baseline scaffolding setup to get up and running very quickly with an Ember application.  It runs off of [Brunch](http://brunch.io/) to help maintain separation of code and prevent you from having one long ass `app.js` file.  Hope you find it useful!
 
 NOTE: this is currently a work-in-progress.  All the basics of routing work.  We plan on adding more features relatively soon that will demonstrate how to handle advanced features such as:
 - Authentication Management
