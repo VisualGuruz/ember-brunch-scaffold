@@ -1,14 +1,14 @@
 {
-  "name": "emberjs-routerv2-example-app",
+  "name": "ember-brunch-scaffold",
   "author": "VisualGuruz",
   "copyright": "VisualGuruz 2013",
   "license": "MIT",
-  "description": "Attempt to understand the new emberjs v2 router",
-  "version": "0.0.1",
-  "homepage": "https://github.com/VisualGuruz/emberjs-routerv2-example-app",
+  "description": "An all-inclusive, baseline scaffolding setup to get up and running very quickly with an Ember.js application",
+  "version": "0.0.2",
+  "homepage": "https://github.com/VisualGuruz/ember-brunch-scaffold",
   "repository": {
     "type": "git",
-    "url": "git://github.com/VisualGuruz/emberjs-routerv2-example-app.git"
+    "url": "git://github.com/VisualGuruz/ember-brunch-scaffold.git"
   },
   "engines": {
     "node": "~0.6.10 || 0.8 || 0.9"
@@ -17,15 +17,20 @@
     "start": "brunch watch --server"
   },
   "dependencies": {
-    "javascript-brunch": ">= 1.0 < 1.5",
-    "uglify-js-brunch": ">= 1.0 < 1.5",
-    "jshint-brunch":">= 1.0 < 1.5",
-    "less-brunch": ">= 1.0 < 1.5",
+    "javascript-brunch": ">= 1.0 < 1.6",
+
+    "css-brunch": ">= 1.0 < 1.6",
+    "less-brunch": ">= 1.0 < 1.6",
+
+    "jshint-brunch":">= 1.0 < 1.6",
+    "uglify-js-brunch": ">= 1.0 < 1.6",
+    "clean-css-brunch": ">= 1.0 < 1.6",
+
     "ember-handlebars-brunch": "git://github.com/bartsqueezy/ember-handlebars-brunch.git"
   },
   "devDependencies": {
-    "mocha": "1.7.4",
+    "mocha": "1.10.0",
     "expect.js": "0.2.0",
-    "express": "3.0.4"
+    "express": "3.2.6"
   }
 }
