@@ -20,7 +20,6 @@ exports.config =
           'vendor/scripts/modernizr.custom.js',
           'vendor/scripts/handlebars.js',
           'vendor/scripts/ember.js',
-          'vendor/scripts/ember-data.js',
           'vendor/scripts/bootstrap.js'
         ]
 
