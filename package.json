@@ -4,7 +4,7 @@
   "copyright": "VisualGuruz 2013",
   "license": "MIT",
   "description": "An all-inclusive, baseline scaffolding setup to get up and running very quickly with an Ember.js application",
-  "version": "1.0.0-rc.8",
+  "version": "1.0.0",
   "homepage": "https://github.com/VisualGuruz/ember-brunch-scaffold",
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "javascript-brunch": ">= 1.0 < 1.6",
-    "ember-handlebars-brunch": "1.0.0-rc.8",
+    "ember-handlebars-brunch": "1.0.0",
 
     "css-brunch": ">= 1.0 < 1.6",
     "less-brunch": ">= 1.0 < 1.6",
