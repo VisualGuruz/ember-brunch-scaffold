@@ -8,7 +8,7 @@ NOTE: this is currently a work-in-progress.  All the basics of routing work.  We
 
 ## Dependencies
 In case you completely overlooked the title (classic Phil), this application is built with [Brunch](http://brunch.io/).  It is the only dependency needed (assuming you have node.js & npm installed), and therefore must be installed to build this application.
-  
+
     npm install -g brunch
 
 ## Setup Process
